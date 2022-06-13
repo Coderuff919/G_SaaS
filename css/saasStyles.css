@@ -847,7 +847,6 @@
     padding-right: var(--size-15);
     font-size: var(--size-16);
     margin: 0 auto;
-    color: var(--font-color-grey);
 }
 
 ::placeholder {
@@ -862,6 +861,7 @@
     margin-left: -0.9375rem;
     width: 100%;  
     outline: none !important;
+    color: var(--font-color-grey);
 }
 
 .box-budget, .box-country {
