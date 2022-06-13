@@ -847,6 +847,11 @@
     padding-right: var(--size-15);
     font-size: var(--size-16);
     margin: 0 auto;
+    color: var(--font-color-grey);
+}
+
+::placeholder {
+    color: var(--font-color-grey);
 }
 
 .budget, .country {
@@ -856,7 +861,7 @@
     margin-bottom: var(--size-5);
     margin-left: -0.9375rem;
     width: 100%;  
-    outline: none;
+    outline: none !important;
 }
 
 .box-budget, .box-country {
