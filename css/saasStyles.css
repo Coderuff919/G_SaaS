@@ -853,6 +853,8 @@
     color: var(--font-color-grey);
 }
 
+input:focus, textarea:focus, select:focus {outline:none;}
+
 .budget, .country {
     border: transparent;
     padding-left: var(--size-15); 
@@ -860,7 +862,7 @@
     margin-bottom: var(--size-5);
     margin-left: -0.9375rem;
     width: 100%;  
-    outline: none !important;
+    outline: none;
     color: var(--font-color-grey);
 }
 

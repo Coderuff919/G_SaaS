@@ -334,6 +334,12 @@
     
     .budget, .country { width: 100%; }
 
+    ::placeholder {
+        color: var(--font-color-grey);
+    }
+    
+    input:focus, textarea:focus, select:focus {outline:none;}
+
     .box-budget, .box-country { 
         width: 100%; 
         margin-left: auto;
