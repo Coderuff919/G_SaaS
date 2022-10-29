@@ -35,7 +35,7 @@
 .right-topbar i { margin-left: var(--size-10);}
 
 .navbar {
-    position: fixed;
+    /* position: fixed; */
     top: var(--size-40);
     right: 0;
     left: 0;
