@@ -96,6 +96,7 @@
     align-items: center;
     justify-content: center;
     gap: var(--size-5);
+    margin-top: var(--size-60);
 }
 
 .right-navbar a {
@@ -125,6 +126,7 @@
     margin-right: var(--size-20);
     line-height: var(--size-30);
     color: var(--font-color-grey);
+    float: right;
 }
 
 .container.empowering-icons {
